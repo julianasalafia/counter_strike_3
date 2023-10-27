@@ -1,9 +1,9 @@
-import 'package:counter_strike_3/controller/random_name_controller.dart';
-import 'package:counter_strike_3/models/enemy.dart';
-import 'package:counter_strike_3/models/entity.dart';
-import 'package:counter_strike_3/repositories/entity_repository.dart';
 
-import 'models/player.dart';
+import 'app/controller/random_name_controller.dart';
+import 'app/models/enemy.dart';
+import 'app/models/player.dart';
+import 'app/repositories/entity_repository.dart';
+
 
 bool isRunning = false;
 

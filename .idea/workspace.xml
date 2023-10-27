@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: implemented flutter plataforms">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: setup project">
       <change beforePath="$PROJECT_DIR$/.idea/counter_strike_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/counter_strike_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/counter_strike_3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/counter_strike_3_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/counter_strike_3_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controller/random_name_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/controller/random_name_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/entity.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/player.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/repositories/entity_repository.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,6 +47,11 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698388540752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: setup project">
+      <created>1698389243124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698389243124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: implemented gitignore and readme" />
     <MESSAGE value="feat: implemented flutter plataforms" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implemented flutter plataforms" />
+    <MESSAGE value="feat: setup project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup project" />
   </component>
 </project>

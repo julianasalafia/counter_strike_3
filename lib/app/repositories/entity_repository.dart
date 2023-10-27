@@ -1,4 +1,5 @@
-import 'package:counter_strike_3/models/entity.dart';
+
+import '../models/entity.dart';
 
 class EntityRepository {
   List<Entity> _list = [];

@@ -1,7 +1,8 @@
 import 'dart:io';
 
-import 'package:counter_strike_3/models/entity.dart';
-import 'package:counter_strike_3/repositories/entity_repository.dart';
+import '../repositories/entity_repository.dart';
+import 'entity.dart';
+
 
 class Player extends Entity {
   int liveTicks = 5;
