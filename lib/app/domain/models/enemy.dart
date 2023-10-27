@@ -1,14 +1,18 @@
 import 'package:counter_strike_3/app/domain/entities/entity.dart';
+import 'package:counter_strike_3/app/domain/entities/entity_enum.dart';
 
 class Enemy extends Entity {
   final String _name;
 
-  @override
-  String get name => 'BOT $_name';
-
   bool hasNamePrinted = false;
 
   Enemy({required super.id, required String name}) : _name = name;
+
+  @override
+  String get name => 'BOT $_name';
+
+  @override
+  EntityTypeEnum get entityType => EntityTypeEnum.enemy;
 
   @override
   void render() {
@@ -35,12 +39,13 @@ class Enemy extends Entity {
 
   @override
   // TODO: implement id
-  int get id => throw UnimplementedError();
+  String get id => throw UnimplementedError();
 
   @override
   toJson() {
     return {
       'id': id,
+      'type': entityType.id,
       'name': name,
       'isAlive': isAlive,
     };
@@ -48,8 +53,8 @@ class Enemy extends Entity {
 
   factory Enemy.fromJson(Map<String, dynamic> json) {
     return Enemy(
-      id: json['id'] as int,
-      name: json['name'] as String,
+      id: json['id'],
+      name: json['name'],
       // isAlive: json['isAlive'] as bool,
     );
   }

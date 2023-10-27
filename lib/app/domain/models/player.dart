@@ -1,11 +1,19 @@
-import '../../data_sources/repositorories/entity_repository_mock.dart';
 import '../entities/entity.dart';
+import '../entities/entity_enum.dart';
 
 class Player extends Entity {
   int liveTicks = 5;
-  final EntityRepositoryMock repository;
 
-  Player({required super.id, required this.repository});
+  @override
+  final String name;
+
+  @override
+  EntityTypeEnum get entityType => EntityTypeEnum.player;
+
+  Player({
+    required super.id,
+    required this.name,
+  });
 
   @override
   void tick() {
@@ -43,19 +51,24 @@ class Player extends Entity {
   }
 
   @override
-  // TODO: implement name
-  String get name => 'Player';
-
-  @override
   void init() {}
 
   @override
   toJson() {
     return {
       'id': id,
+      'type': entityType.id,
       'name': name,
       'isAlive': isAlive,
       'liveTicks': liveTicks,
     };
+  }
+
+  factory Player.fromJson(Map<String, dynamic> json) {
+    return Player(
+      id: json['id'],
+      name: json['name'] as String,
+      // isAlive: json['isAlive'] as bool,
+    );
   }
 }

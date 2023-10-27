@@ -1,8 +1,15 @@
+import 'package:counter_strike_3/app/domain/entities/entity_enum.dart';
+
 abstract class Entity {
-  final int id;
+  final String id;
+
+  EntityTypeEnum get entityType;
+
   bool isAlive = true;
 
-  Entity({required this.id});
+  Entity({
+    required this.id,
+  });
 
   String get name;
 

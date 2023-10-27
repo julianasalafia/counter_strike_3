@@ -30,4 +30,9 @@ class EntityRepositoryMock extends EntityRepository {
   Future<void> removeDyingEntities() async {
     _list.removeWhere((element) => element.isAlive == false);
   }
+
+  @override
+  Stream<List<Entity>> getEntitiesStream() {
+    return Stream.value(_list);
+  }
 }

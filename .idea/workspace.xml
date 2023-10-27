@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore: implementing clean arch file structure">
-      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/controllable_entity.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: implementing firebase">
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity_enum.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/flutter_demo/flutter_demo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/page/entity_add_form.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/page/testing_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/state/testing_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/entity/add_entities_stream.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/entity/get_entities_stream_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/entity.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/domain/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +73,47 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "D:/boginni/Projetos/games/counter_strike_3/lib/app/data_sources/repositorories",
+    "last_opened_file_path": "D:/boginni/Projetos/games/counter_strike_3/test",
     "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\test" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter\features\testing" />
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\test\entity" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\utils" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\domain\models" />
-      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
-      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app" />
     </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="Tests in add_entities_stream.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/entity/add_entities_stream.dart" />
+      <option name="testName" value="add_entities_stream.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in get_entities_stream_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/entity/get_entities_stream_test.dart" />
+      <option name="testName" value="entity_repository_firebase_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in add_entities_stream.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/entity/add_entities_stream.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.tests in add_entities_stream.dart" />
+        <item itemvalue="Dart Test.Tests in add_entities_stream.dart" />
+        <item itemvalue="Dart Test.Tests in get_entities_stream_test.dart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698389646727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: implementing firebase">
+      <created>1698391186116</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698391186116</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +186,7 @@
     <MESSAGE value="feat: setup project" />
     <MESSAGE value="chore: ajusts in file structure" />
     <MESSAGE value="chore: implementing clean arch file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: implementing clean arch file structure" />
+    <MESSAGE value="feat: implementing firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing firebase" />
   </component>
 </project>
