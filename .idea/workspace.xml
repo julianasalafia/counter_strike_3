@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore: ajusts in file structure">
-      <change beforePath="$PROJECT_DIR$/lib/app/controller/random_name_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/utils/random_name_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/models/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository.dart" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore: implementing clean arch file structure">
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/controllable_entity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/entity.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,11 +61,15 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "D:/boginni/Projetos/games/counter_strike_3/lib/app/data_sources/repositorories",
     "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\utils" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter" />
@@ -90,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698389505851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: implementing clean arch file structure">
+      <created>1698389646727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698389646727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +141,7 @@
     <MESSAGE value="feat: implemented flutter plataforms" />
     <MESSAGE value="feat: setup project" />
     <MESSAGE value="chore: ajusts in file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: ajusts in file structure" />
+    <MESSAGE value="chore: implementing clean arch file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: implementing clean arch file structure" />
   </component>
 </project>

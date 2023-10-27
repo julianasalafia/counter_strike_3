@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330779556030",
+    "project_id": "counter-strike-3-a43a0",
+    "storage_bucket": "counter-strike-3-a43a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330779556030:android:b32d41cd2ba29e3f2106ef",
+        "android_client_info": {
+          "package_name": "com.example.counter_strike_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACeQJw7ynOKUgFfax1K1yiXhag0_qEMcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
