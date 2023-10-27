@@ -1,5 +1,5 @@
 
-import '../models/entity.dart';
+import '../../domain/models/entity.dart';
 
 class EntityRepository {
   List<Entity> _list = [];

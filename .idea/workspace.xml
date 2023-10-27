@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: setup project">
-      <change beforePath="$PROJECT_DIR$/.idea/counter_strike_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/counter_strike_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/controller/random_name_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/controller/random_name_controller.dart" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore: ajusts in file structure">
+      <change beforePath="$PROJECT_DIR$/lib/app/controller/random_name_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/utils/random_name_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/models/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/entity.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/enemy.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/player.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/repositories/entity_repository.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +46,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\utils" />
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter" />
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\domain\models" />
+      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app" />
     </key>
   </component>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698389243124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: ajusts in file structure">
+      <created>1698389505851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698389505851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +108,7 @@
     <MESSAGE value="feat: implemented gitignore and readme" />
     <MESSAGE value="feat: implemented flutter plataforms" />
     <MESSAGE value="feat: setup project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: setup project" />
+    <MESSAGE value="chore: ajusts in file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: ajusts in file structure" />
   </component>
 </project>

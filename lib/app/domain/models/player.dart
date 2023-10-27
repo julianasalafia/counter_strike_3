@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import '../repositories/entity_repository.dart';
+import '../../data_sources/repositorories/entity_repository.dart';
 import 'entity.dart';
 
 

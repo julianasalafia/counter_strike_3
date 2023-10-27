@@ -1,8 +1,8 @@
 
-import 'app/controller/random_name_controller.dart';
-import 'app/models/enemy.dart';
-import 'app/models/player.dart';
-import 'app/repositories/entity_repository.dart';
+import 'app/utils/random_name_controller.dart';
+import 'app/domain/models/enemy.dart';
+import 'app/domain/models/player.dart';
+import 'app/data_sources/repositorories/entity_repository.dart';
 
 
 bool isRunning = false;
