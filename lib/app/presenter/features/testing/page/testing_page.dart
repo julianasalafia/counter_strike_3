@@ -49,7 +49,7 @@ class _TestingPageState extends TestingState {
               const SizedBox(width: 16),
               Expanded(
                 child: StreamBuilder(
-                  stream: entityRepository.getEntitiesStream(),
+                  stream: entityRepository.getAsStream(),
                   builder: (context, snapshot) {
                     if (snapshot.hasError) {
                       return  Text('Error ${snapshot.error}');

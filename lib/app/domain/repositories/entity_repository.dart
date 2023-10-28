@@ -1,17 +1,9 @@
+import 'package:counter_strike_3/app/domain/repositories/repository.dart';
+
 import '../entities/entity.dart';
 
-abstract class EntityRepository {
-  EntityRepository();
-
-  Future<List<Entity>> getLivingEntities();
-
-  Future<List<Entity>> getEntities();
-
-  Stream<List<Entity>> getEntitiesStream();
-
-  Future<void> addEntity(Entity entity);
-
-  Future<void> addEntityList(List<Entity> entities);
-
+abstract class EntityRepository<T extends Entity> implements Repository<T> {
+  Future<List<T>> getLivingEntities();
   Future<void> removeDyingEntities();
+  Stream<List<T>> getAsStream();
 }

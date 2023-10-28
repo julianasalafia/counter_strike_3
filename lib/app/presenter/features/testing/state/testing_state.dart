@@ -28,7 +28,7 @@ abstract class TestingState extends State<TestingPage> {
 
     final player = Player(name: entityName, id: '0');
 
-    entityRepository.addEntity(player);
+    entityRepository.put(player.id, player);
     entityNameController.clear();
   }
 

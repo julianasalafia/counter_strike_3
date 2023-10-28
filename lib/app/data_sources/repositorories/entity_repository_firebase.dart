@@ -12,36 +12,25 @@ class EntityRepositoryFirebase extends EntityRepository {
   EntityRepositoryFirebase({required this.firestore});
 
   @override
-  Future<void> addEntity(Entity entity) async {
-    await firestore.collection('entities').add(entity.toJson());
-  }
-
-  @override
-  Future<void> addEntityList(List<Entity> entities) {
-    // TODO: implement addEntityList
+  Future<void> delete(String key) {
+    // TODO: implement delete
     throw UnimplementedError();
   }
 
   @override
-  Future<List<Entity>> getEntities() {
-    // TODO: implement getEntities
+  Future<void> deleteMany(List<String> keys) {
+    // TODO: implement deleteMany
     throw UnimplementedError();
   }
 
   @override
-  Future<List<Entity>> getLivingEntities() {
-    // TODO: implement getLivingEntities
+  Future<Entity?> get(String key) {
+    // TODO: implement get
     throw UnimplementedError();
   }
 
   @override
-  Future<void> removeDyingEntities() {
-    // TODO: implement removeDyingEntities
-    throw UnimplementedError();
-  }
-
-  @override
-  Stream<List<Entity>> getEntitiesStream() {
+  Stream<List<Entity>> getAsStream() {
     return firestore.collection('entities').snapshots().map((snapshot) {
       return snapshot.docs.map((doc) {
         ///TODO: Criar entity da resposta
@@ -62,4 +51,41 @@ class EntityRepositoryFirebase extends EntityRepository {
       }).toList();
     });
   }
+
+  @override
+  Future<List<Entity>> getLivingEntities() {
+    // TODO: implement getLivingEntities
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<List<Entity>> getMany() {
+    // TODO: implement getMany
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<List<Entity>> getWhere(bool Function(Entity value) predicate) {
+    // TODO: implement getWhere
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> put(String key, Entity value) async {
+    await firestore.collection('entities').add(value.toJson());
+  }
+
+  @override
+  Future<void> putMany(List<Entity> values) {
+    // TODO: implement putMany
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> removeDyingEntities() {
+    // TODO: implement removeDyingEntities
+    throw UnimplementedError();
+  }
+
+
 }

@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: implementing firebase">
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity_enum.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/flutter_demo/flutter_demo.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/page/entity_add_form.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/page/testing_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/state/testing_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/entity/add_entities_stream.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/entity/get_entities_stream_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/counter_strike_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/counter_strike_3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_mock.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/repositories/entity_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,33 +44,34 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "D:/boginni/Projetos/games/counter_strike_3/test",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;dart.webdev.port&quot;: &quot;11002&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/boginni/tools/flutter/bin/cache/dart-sdk&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\boginni\Projetos\games\counter_strike_3\test" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/domain/entities/entity" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter\features\testing" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\test\entity" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\utils" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\presenter" />
-      <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\domain\models" />
     </key>
   </component>
   <component name="RunManager" selected="Flutter.main.dart">
