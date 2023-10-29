@@ -1,6 +1,3 @@
 import 'entity.dart';
 
-abstract class ControllableEntity implements Entity {
-
-
-}
+abstract class ControllableEntity implements Entity {}

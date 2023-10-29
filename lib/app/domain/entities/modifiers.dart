@@ -1,0 +1,4 @@
+enum Modifiers {
+  longRange,
+  shortRange,
+}
