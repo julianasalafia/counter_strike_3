@@ -1,5 +1,5 @@
-import '../entities/entity.dart';
-import '../entities/entity_enum.dart';
+import '../../entities/entity/entity.dart';
+import '../../entities/entity/entity_enum.dart';
 
 class Player extends Entity {
   int liveTicks = 5;
@@ -62,7 +62,7 @@ class Player extends Entity {
   }
 
   @override
-  Map<String, dynamic> customJson() {
+  Map<String, dynamic> customJsonFields() {
     return {
       'name': name,
       'isAlive': isAlive,

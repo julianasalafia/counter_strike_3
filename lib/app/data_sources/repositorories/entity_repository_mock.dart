@@ -1,4 +1,4 @@
-import '../../domain/entities/entity.dart';
+import '../../domain/entities/entity/entity.dart';
 import '../../domain/repositories/entity_repository.dart';
 
 class EntityRepositoryMock extends EntityRepository {

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:counter_strike_3/app/data_sources/repositorories/entity_repository_firebase.dart';
-import 'package:counter_strike_3/app/domain/models/player.dart';
+import 'package:counter_strike_3/app/domain/models/entities/player.dart';
 import 'package:counter_strike_3/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

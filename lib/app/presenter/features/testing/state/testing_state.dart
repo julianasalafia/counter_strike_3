@@ -1,4 +1,4 @@
-import 'package:counter_strike_3/app/domain/models/player.dart';
+import 'package:counter_strike_3/app/domain/models/entities/player.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 

@@ -1,4 +1,4 @@
-import 'package:counter_strike_3/app/domain/entities/entity_enum.dart';
+import 'package:counter_strike_3/app/domain/entities/entity/entity_enum.dart';
 
 abstract class Entity {
   final String id;
@@ -21,13 +21,13 @@ abstract class Entity {
 
   void onDying();
 
-  Map<String, dynamic> customJson();
+  Map<String, dynamic> customJsonFields();
 
   Map<String, dynamic> toJson() {
     return {
       'id': id,
       'type': entityType.id,
-      ...customJson(),
+      ...customJsonFields(),
     };
   }
 }

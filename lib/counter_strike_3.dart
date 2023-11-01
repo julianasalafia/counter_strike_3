@@ -1,7 +1,7 @@
 
 import 'app/utils/random_name_controller.dart';
-import 'app/domain/models/enemy.dart';
-import 'app/domain/models/player.dart';
+import 'app/domain/models/entities/enemy.dart';
+import 'app/domain/models/entities/player.dart';
 import 'app/data_sources/repositorories/entity_repository_mock.dart';
 
 

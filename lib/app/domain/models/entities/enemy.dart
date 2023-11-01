@@ -1,5 +1,5 @@
-import 'package:counter_strike_3/app/domain/entities/entity.dart';
-import 'package:counter_strike_3/app/domain/entities/entity_enum.dart';
+import 'package:counter_strike_3/app/domain/entities/entity/entity.dart';
+import 'package:counter_strike_3/app/domain/entities/entity/entity_enum.dart';
 
 class Enemy extends Entity {
   final String _name;
@@ -51,7 +51,7 @@ class Enemy extends Entity {
   }
 
   @override
-  Map<String, dynamic> customJson() {
+  Map<String, dynamic> customJsonFields() {
     return {
       'name': name,
       'isAlive': isAlive,

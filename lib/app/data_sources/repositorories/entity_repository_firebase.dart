@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:counter_strike_3/app/domain/entities/entity.dart';
-import 'package:counter_strike_3/app/domain/entities/entity_enum.dart';
+import 'package:counter_strike_3/app/domain/entities/entity/entity.dart';
+import 'package:counter_strike_3/app/domain/entities/entity/entity_enum.dart';
 
-import '../../domain/models/enemy.dart';
-import '../../domain/models/player.dart';
+import '../../domain/models/entities/enemy.dart';
+import '../../domain/models/entities/player.dart';
 import '../../domain/repositories/entity_repository.dart';
 
 class EntityRepositoryFirebase extends EntityRepository {
