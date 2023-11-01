@@ -1,6 +1,4 @@
-import '../entities/entity/entity.dart';
-
-abstract class Repository<T extends Entity> {
+abstract class Repository<T> {
   Future<T?> get(String key);
 
   Future<List<T>> getMany();
