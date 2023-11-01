@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="refactor(Entity): Inherit common attributes from custom JSON structure">
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/world/room.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/world/tile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/entities/world/world.dart" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore(Tests): Temporarily disable tests due to firebase">
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/models/user/sign_in_user.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/session_firebase_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_anonymously_firebase_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_with_google_firebase_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/adapters/dependency_injection.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/authentication/session_exception.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/authentication/sign_in_exception.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/entity/entity_parse_exception.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/handlable_exception.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/authentication/session_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/authentication/sign_in_anonymously_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/page/sign_in_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/controller/splash_controller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/controller/splash_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/page/splash_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/counter_strike_3_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/counter_strike_3_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_with_google_firebase_anonymously_repository.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/weapon.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/weapon.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/entities/enemy.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/entities/player.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/presenter/features/testing/state/testing_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/features/testing/state/testing_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/counter_strike_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_strike_3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/entity/add_entities_stream.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/entity/add_entities_stream.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/user/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/user/user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/exceptions/entity_parse_exception.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/repositories/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/repositories/user_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,34 +64,37 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;dart.webdev.port&quot;: &quot;11002&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/boginni/tools/flutter/bin/cache/dart-sdk&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "dart.webdev.port": "11002",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/home/boginni/StudioProjects/counter_strike_3/lib/app/data_sources/repositorories/authentication",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication" />
+      <recent name="$PROJECT_DIR$/lib/app/domain/repositories/authentication" />
+      <recent name="$PROJECT_DIR$/lib/app/domain/repositories" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\test" />
       <recent name="D:\boginni\Projetos\games\counter_strike_3\lib\app\data_sources\repositorories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/app/domain/entities/world" />
-      <recent name="$PROJECT_DIR$/lib/app/domain/models/entities" />
-      <recent name="$PROJECT_DIR$/lib/app/domain/entities" />
-      <recent name="$PROJECT_DIR$/lib/app/domain/models" />
-      <recent name="$PROJECT_DIR$/lib/app/domain/entities/entity" />
+      <recent name="$PROJECT_DIR$/lib/app/domain/exceptions/entity" />
+      <recent name="$PROJECT_DIR$/lib/app/domain/exceptions/authentication" />
+      <recent name="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/page" />
+      <recent name="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/" />
+      <recent name="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in" />
     </key>
   </component>
   <component name="RunManager" selected="Flutter.main.dart">
@@ -163,7 +179,42 @@
       <option name="project" value="LOCAL" />
       <updated>1698830147846</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: Reorganize dice files and rename 'customJson' to 'CustomJsonFields'">
+      <created>1698831683409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698831683409</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(World): Add entities for battle management and entity positioning">
+      <created>1698831993299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698831993299</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(EntityRepository): Implement Firebase integration methods">
+      <created>1698833689400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698833689400</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(Repository): Decouple from Entity and add anonymous sign-in support">
+      <created>1698838280714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698838280714</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore(Tests): Temporarily disable tests due to firebase">
+      <created>1698843110545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698843110545</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +248,11 @@
     <MESSAGE value="chore: implementing clean arch file structure" />
     <MESSAGE value="feat: implementing firebase" />
     <MESSAGE value="refactor(Entity): Inherit common attributes from custom JSON structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(Entity): Inherit common attributes from custom JSON structure" />
+    <MESSAGE value="refactor: Reorganize dice files and rename 'customJson' to 'CustomJsonFields'" />
+    <MESSAGE value="feat(World): Add entities for battle management and entity positioning" />
+    <MESSAGE value="feat(EntityRepository): Implement Firebase integration methods" />
+    <MESSAGE value="feat(Repository): Decouple from Entity and add anonymous sign-in support" />
+    <MESSAGE value="chore(Tests): Temporarily disable tests due to firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(Tests): Temporarily disable tests due to firebase" />
   </component>
 </project>
