@@ -1,3 +1,4 @@
+import 'package:counter_strike_3/app/presenter/features/splash/page/splash_page.dart';
 import 'package:counter_strike_3/app/presenter/features/testing/page/testing_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class AppWidget extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TestingPage(),
+      home: const SplashPage(),
     );
   }
 }

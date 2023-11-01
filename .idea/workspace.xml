@@ -4,31 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore(Tests): Temporarily disable tests due to firebase">
-      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/models/user/sign_in_user.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/session_firebase_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_anonymously_firebase_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_with_google_firebase_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/adapters/dependency_injection.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/authentication/session_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/authentication/sign_in_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/entity/entity_parse_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/exceptions/handlable_exception.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/authentication/session_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/domain/repositories/authentication/sign_in_anonymously_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/page/sign_in_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/controller/splash_controller.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/controller/splash_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/presenter/features/splash/page/splash_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="chore: setup dependency injection adapter for later user">
+      <change afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/user_repository_firebase.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/counter_strike_3_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/counter_strike_3_android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/authentication/sign_in_with_google_firebase_anonymously_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/data_sources/repositorories/entity_repository_firebase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/user/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/user/user.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/exceptions/entity_parse_exception.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/domain/repositories/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/repositories/user_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/infrastructure/get_it_setup.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/app_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/controller/sign_in_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/controller/sign_in_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/page/sign_in_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/presenter/features/auth/sign_in/page/sign_in_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +196,35 @@
       <option name="project" value="LOCAL" />
       <updated>1698843110545</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat(Exception): Implement handleable exception for error handling">
+      <created>1698843477127</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698843477127</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat(repository): implement user authentication with firebase">
+      <created>1698846441376</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698846441376</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat(ui): implement ui for sign in and splash pages">
+      <created>1698846488826</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698846488826</updated>
+    </task>
+    <task id="LOCAL-00016" summary="chore: setup dependency injection adapter for later user">
+      <created>1698846514519</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698846514519</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +263,10 @@
     <MESSAGE value="feat(EntityRepository): Implement Firebase integration methods" />
     <MESSAGE value="feat(Repository): Decouple from Entity and add anonymous sign-in support" />
     <MESSAGE value="chore(Tests): Temporarily disable tests due to firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(Tests): Temporarily disable tests due to firebase" />
+    <MESSAGE value="feat(Exception): Implement handleable exception for error handling" />
+    <MESSAGE value="feat(repository): implement user authentication with firebase" />
+    <MESSAGE value="feat(ui): implement ui for sign in and splash pages" />
+    <MESSAGE value="chore: setup dependency injection adapter for later user" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: setup dependency injection adapter for later user" />
   </component>
 </project>

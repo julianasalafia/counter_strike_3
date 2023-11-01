@@ -16,38 +16,42 @@ class _SignInPageState extends SignInState {
       key: formKey,
       child: Scaffold(
         body: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                'Counter Strike 3',
-                style: Theme.of(context).textTheme.headlineSmall,
-              ),
-              const SizedBox(height: 16),
-              TextFormField(
-                validator: Validatorless.multiple([
-                  Validatorless.required('Required field'),
-                  Validatorless.min(3, 'Minimum 3 characters'),
-                ]),
-                decoration: const InputDecoration(
-                  labelText: 'Nickname',
-                  hintText: 'Enter your nickname',
-                  prefixIcon: Icon(Icons.person),
+          child: SizedBox(
+            width: MediaQuery.of(context).size.width * 1.0 / 3.0,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  'Counter Strike 3',
+                  style: Theme.of(context).textTheme.headlineSmall,
                 ),
-              ),
-              const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: () => signIn(),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    const Text('Sign In'),
-                    const SizedBox(width: 16),
-                    Icon(Icons.login),
-                  ],
+                const SizedBox(height: 16),
+                TextFormField(
+                  controller: nameController,
+                  validator: Validatorless.multiple([
+                    Validatorless.required('Required field'),
+                    Validatorless.min(3, 'Minimum 3 characters'),
+                  ]),
+                  decoration: const InputDecoration(
+                    labelText: 'Nickname',
+                    hintText: 'Enter your nickname',
+                    prefixIcon: Icon(Icons.person),
+                  ),
                 ),
-              ),
-            ],
+                const SizedBox(height: 16),
+                ElevatedButton(
+                  onPressed: signIn,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text('Sign In'),
+                      const SizedBox(width: 16),
+                      Icon(Icons.login),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
