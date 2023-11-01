@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:counter_strike_3/app/domain/entities/entity/entity.dart';
 import 'package:counter_strike_3/app/domain/entities/entity/entity_enum.dart';
 
-import '../../domain/exceptions/entity_parse_exception.dart';
+import '../../domain/exceptions/entity/entity_parse_exception.dart';
 import '../../domain/models/entities/enemy.dart';
 import '../../domain/models/entities/player.dart';
 import '../../domain/repositories/entity_repository.dart';
