@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat: implementing firebase">
-      <change beforePath="$PROJECT_DIR$/.idea/counter_strike_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/counter_strike_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df26764b-b67d-44f0-b122-aa68764b3c65" name="Changes" comment="feat(WeaponMechanics): Implement models based on the game design diagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/entities/entity.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/domain/models/player.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/domain/models/player.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XKq9B9qOPDa5jOxjVj0GSveqzg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenPackages" value="true" />
@@ -157,7 +157,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -53,22 +53,20 @@ class Player extends Entity {
   @override
   void init() {}
 
-  @override
-  toJson() {
-    return {
-      'id': id,
-      'type': entityType.id,
-      'name': name,
-      'isAlive': isAlive,
-      'liveTicks': liveTicks,
-    };
-  }
-
   factory Player.fromJson(Map<String, dynamic> json) {
     return Player(
       id: json['id'],
       name: json['name'] as String,
       // isAlive: json['isAlive'] as bool,
     );
+  }
+
+  @override
+  Map<String, dynamic> customJson() {
+    return {
+      'name': name,
+      'isAlive': isAlive,
+      'liveTicks': liveTicks,
+    };
   }
 }

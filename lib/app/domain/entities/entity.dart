@@ -21,5 +21,13 @@ abstract class Entity {
 
   void onDying();
 
-  toJson();
+  Map<String, dynamic> customJson();
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'type': entityType.id,
+      ...customJson(),
+    };
+  }
 }

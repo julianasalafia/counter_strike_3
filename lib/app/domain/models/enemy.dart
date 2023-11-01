@@ -41,15 +41,6 @@ class Enemy extends Entity {
   // TODO: implement id
   String get id => throw UnimplementedError();
 
-  @override
-  toJson() {
-    return {
-      'id': id,
-      'type': entityType.id,
-      'name': name,
-      'isAlive': isAlive,
-    };
-  }
 
   factory Enemy.fromJson(Map<String, dynamic> json) {
     return Enemy(
@@ -57,5 +48,13 @@ class Enemy extends Entity {
       name: json['name'],
       // isAlive: json['isAlive'] as bool,
     );
+  }
+
+  @override
+  Map<String, dynamic> customJson() {
+    return {
+      'name': name,
+      'isAlive': isAlive,
+    };
   }
 }
