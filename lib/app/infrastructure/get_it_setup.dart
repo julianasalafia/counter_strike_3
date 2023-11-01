@@ -10,6 +10,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get_it/get_it.dart';
 
 import '../data_sources/repositorories/entity_repository_firebase.dart';
+import '../data_sources/repositorories/user_repository_firebase.dart';
 
 final getIt = GetIt.instance;
 
@@ -22,4 +23,6 @@ void getItSetup() {
   getIt.registerSingleton<EntityRepository>(EntityRepositoryFirebase(firestore: firestore));
   getIt.registerSingleton<SessionRepository>(SessionFirebaseRepository(firebaseAuth: firebaseAuth));
   getIt.registerSingleton<SignInAnonymouslyRepository>(SignInAnonymouslyFirebaseRepository(firebaseAuth: firebaseAuth));
+  getIt.registerSingleton<UserRepository>(UserRepositoryFirebase(firestore: firestore));
+
 }
